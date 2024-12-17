@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: rgb(255, 156, 217);
+    background-color: #9fa0ff;
     font-family: "Share Tech Mono", monospace !important;
     color: rgb(0, 0, 0);
 }
@@ -64,7 +64,7 @@ body {
     font-size: 30px;
     font-weight: 500;
     padding: 5px 30px;
-    color: #ff9cd9; /* Korrektur hier */
+    color: #9fa0ff; /* Korrektur hier */
     border-radius: 50px;
     background: #000;
     position: relative;

@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	transition: 0.05s ease-in;
+	/*DIMENSIONS*/
+	--dim1: 11vw;
+	--dim2: 0.5vw;
+}
+
+body {
+    background-color: #9fa0ff;
+    font-family: "Share Tech Mono", monospace !important;
+    color: rgb(0, 0, 0);
+
+}
+
+/*LIBRARY*/
+#title {
+	margin: auto;
+	flex-direction: column;
+	height: calc(2 * var(--dim1));
+}
+#title > h1 {
+	font-family: "Share Tech Mono", monospace;
+	font-size: 10vw;
+}
+#title > p {
+	font-family: Heebo, sans-serif;
+	font-size: 2vw;
+}
+.calendar-frame {
+	padding: var(--dim2);
+	width: 84vw;
+	margin: auto;
+	flex-wrap: wrap;
+}
+.day-frame {
+	margin: var(--dim2);
+	height: var(--dim1);
+	width: var(--dim1);
+}
+.day-number {
+	font-family: "Share Tech Mono", monospace;
+	font-size: 5vw;
+	text-shadow: 0 0 1vw rgba(0, 0, 0, 0.25);
+}
+.day-label {
+	width: var(--dim1);
+	position: absolute;
+	color: rgba(255, 255, 255, 0);
+	background-color: rgba(0, 0, 0, 0);
+	font-size: 1vw;
+	font-family: "Share Tech Mono", monospace;
+}
+.real:hover > .day-label {
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.real {
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff; /* Calender Numbers */
+    
+}
+.real:hover {
+	transform: scale(1.1, 1.1);
+}
+.real:hover > .day-number {
+	color: rgba(0, 0, 0, 0);
+	text-shadow: 0 0 10vw rgba(0, 0, 0, 0);
+}
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*DAYS*/
+#one {
+	background-image: url("https://safebooru.org//samples/2052/sample_9c1aec5932679d05fb0a9f9be0061122d1205dc1.jpg?5412974");
+	background-position: center bottom;
+}
+#two {
+	background-image: url("https://safebooru.org//samples/2308/sample_108107dbc57b98231c8f5f6c35ecd6addea6895d.jpg?5416086");
+	background-position: center top;
+}
+#three {
+	background-image: url("https://safebooru.org//images/2308/b294163856d9b7c12d6a8632de8ffea091639ac6.jpg?5417452");
+	background-position: center;
+}
+#four {
+	background-image: url("https://safebooru.org//samples/438/sample_c6b54fc73f626df0f461349698555a203a136d79.jpg?438103");
+	background-position: center;
+}
+#five {
+	background-image: url("https://safebooru.org//images/3/208901f6500f2d860ffe4324a7e31d5a4693db3a.jpg?5346568");
+	background-position: left center;
+}
+#six {
+	background-image: url("https://safebooru.org//samples/2308/sample_25a0c768dc30350c8c9910ef9557b6736ee716bc.jpg?5417499");
+	background-position: left center;
+}
+#seven {
+	background-image: url("https://safebooru.org//images/772/b13f2417af72c2e056f8882080acf89109088dd6.jpg?5404776");
+	background-position: center;
+}
+#eight {
+	background-image: url("https://safebooru.org//samples/772/sample_2c775b896d22ac7f0762db4d0d79daa0019009ee.jpg?5404778");
+	background-position: center;
+}
+#nine {
+	background-image: url("https://safebooru.org//samples/1795/sample_7c1cdc0320689c948122ef00de59dc16a1f799f0.jpg?5371027");
+	background-position: center;
+}
+#ten {
+	background-image: url("https://safebooru.org//samples/1793/sample_e946df70c281b255194d30f5456576b030b4edec.jpg?5266554");
+	background-position: left bottm;
+}
+#eleven {
+	background-image: url("https://safebooru.org//samples/257/sample_a6c17359c937696779336c9c62091b59b883bad0.jpg?5244632");
+	background-position: center;
+}
+#twelve {
+	background-image: url("https://safebooru.org//samples/1280/sample_218615c2a8bfaaa78b47a253afcc5da285226f7d.jpg?5185974");
+	background-position: center;
+}
+#thirteen {
+	background-image: url("https://safebooru.org//samples/4609/sample_7a84c34651784326dd32200a8fc79ac7ae1d8c10.jpg?5292068");
+	background-position: center;
+}
+#fourteen {
+	background-image: url("https://safebooru.org//samples/257/sample_723b3d26a7b5467dc51f19c34f52f9e6090ddfb6.jpg?5247521");
+	background-position: center;
+}
+#fifteen {
+	background-image: url("https://safebooru.org//images/1536/9a0a7bc9bc95f20cec66a8df30206db1c9f3b740.jpg?5190388");
+	background-position: center;
+}
+#sixteen {
+	background-image: url("https://safebooru.org//images/4619/a94bdb94f52194b0cc827c3c6979d6c385bdac9a.png?5095227");
+	background-position: center bottom;
+}
+#seventeen {
+	background-image: url("https://safebooru.org//images/4619/a0c11954a0c853be95e25a94331b9052a54d24f0.jpg?5156163");
+	background-position: center;
+}
+#eighteen {
+	background-image: url("https://safebooru.org//samples/4619/sample_361304da6fc06997b389bac2c7c5d7fd1b321ddc.jpg?5095474");
+	background-position: center top;
+}
+#nineteen {
+	background-image: url("https://safebooru.org//samples/4619/sample_2a9b83400a13316de036cea5d118a70d2dd0e234.jpg?5095327");
+	background-position: center;
+}
+#twenty {
+	background-image: url("https://safebooru.org//images/2950/679ecdf47d3b4c0558b88fc991df77af639dbe44.jpg?3072846");
+	background-position: center bottom;
+}
+#twenty-one {
+	background-image: url("https://safebooru.org//samples/1027/sample_434e6faa31af6b353745e772bb0c8c0817ddca9a.jpg?5359505");
+	background-position: center;
+}
+#twenty-two {
+	background-image: url("https://safebooru.org//samples/772/sample_de5bd390a5b4f329e0957faa8f26156ee61a4b42.jpg?5402566");
+	background-position: center;
+}
+#twenty-three {
+	background-image: url("https://safebooru.org//samples/3975/sample_400735722ee2b81b4bfa9f37ee1b5f4e8cc631f5.jpg?4153213");
+	background-position: center;
+}
+#twenty-four {
+	background-image: url("https://safebooru.org//samples/4619/sample_a9244666c816375fc9f3112e656eeba273c9bd1e.jpg?5030791");
+	background-position: center top;
+}
+#twenty-five {
+	background-image: url("https://safebooru.org//samples/1793/sample_f0631e94c427e529ab6897f6f8da2d67a4c3c64e.jpg?5265166");
+	background-position: center;
+}
+#twenty-six {
+	background-image: url("https://safebooru.org//samples/2304/sample_96b5f3b7a84618a6b21d2ab992e9b690522a0c6b.jpg?5200248");
+	background-position: center;
+}
+#twenty-seven {
+	background-image: url("https://safebooru.org//samples/3076/sample_2d3e584eaa1ca2fc7366b76d811ac58a82573bbf.jpg?5417969");
+	background-position: center;
+}
+#twenty-eight {
+	background-image: url("https://safebooru.org//images/4098/3eb3410e5922bb5cc611f02495ce28b72bc78cc6.png?5333146");
+	background-position: center;
+}
+
+a {
+	text-decoration: none;
+	color: #9fa0ff;
+}
+
+.home-btn {
+	font-size: 40px;
+	width: 82px; 
+	background-color: black; /* Hintergrundfarbe */ 
+	color: #9fa0ff; /* Textfarbe */ 
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 10px 20px; /* Innenabstände */ 
+	border: none; /* Entfernt Rahmen */ 
+	border-radius: 30px; /* Abrundung der Ecken */
+	cursor: pointer; /* Zeigt Hand-Cursor bei Hover */ 
+	text-decoration: none;
+	transition: background-color 0.3s
+
+}
+
+.home-btn:hover {
+	background-color: #ffffff;
+	color: #9fa0ff;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 640px) {
+    
+}

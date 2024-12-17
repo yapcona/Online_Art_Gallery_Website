@@ -1,59 +1,90 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <!-- fontawesome-->
     <!-- js libary for sound -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     
-    <title>art-gallery</title>
+    <title>métamorphose</title>
 </head>
 
     <body>
+            <!-- Navbar -->
             <input type="checkbox" id="active">
-            <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+            <label for="active" class="menu-btn">
+                <span>&#9733;</span>
+            </label>
                 <div class="wrapper">
                     <ul class="nav">
-                        <li><a href="#">Home</a></li>
+                        <!-- Home -->
+                        <li><a href="index.html">Home</a></li>
                             <audio id="beep" preload="auto">
                                 <source src="light-bulb.mp3"></source>
                             </audio>
-
-                        <li><a href="#">Events</a></li>
+                        <!-- Events -->
+                        <li><a href="events.html">Events</a></li>
                             <audio id="beep" preload="auto">
                                 <source src="light-bulb.mp3"></source>
                             </audio>
-                        <li><a href="#">Archiv</a></li>
+                        <!-- Archive -->
+                        <li><a href="archive.html">Archive</a></li>
                             <audio id="beep" preload="auto">
                                 <source src="light-bulb.mp3"></source>
                             </audio>
-                        <li><a href="#">About</a></li>
+                        <!-- About -->
+                        <li><a href="about.html">About</a></li>
                             <audio id="beep" preload="auto">
                                 <source src="light-bulb.mp3"></source>
                             </audio>
-                        <li><a href="#">Kontakt</a></li>
+                        <!-- Contact -->
+                        <li><a href="contact.html">Contact</a></li>
                             <audio id="beep" preload="auto">
                                 <source src="light-bulb.mp3"></source>
                             </audio>
-                        <li><a href="#">Story</a></li>
+                        <!-- Story -->
+                        <li><a href="story.html">Story</a></li>
                             <audio id="beep" preload="auto">
                                 <source src="light-bulb.mp3"></source>
                             </audio>
-                        <li><a href="#">Anfahrt</a></li>
+                        <!-- Where -->
+                        <li><a href="where.html">Where</a></li>
                             <audio id="beep" preload="auto">
                                 <source src="light-bulb.mp3"></source>
                             </audio>
                     </ul>
+
                 </div>
                     <div class="content">
-                        <div class="title">
+                        <div class="title" style="font-size: 60px;">
                             métamorphose
                         </div>
-                        <p> prestige art gallery  </p>
+                        <p style="font-size: 40px;"> 
+                            the art gallery 
+                        </p>
+                        <p style="font-size: 18px; margin-top: 5px;">
+                            "since the beginning of time"
+                        </p>
+                        <p style="font-size: 16px; margin-top: 5px;">
+                            -Big G
+                        </p>
+                        <p style="margin-top: 5px;">
+                            /\_/\  <br>
+                            ( o.o ) <br>
+                            >   <
+                        
+                        </p>
                 </div>
+
+
+
+                <div class="home-content">
+                    
+
+                </div>
+
                     <script>
                         var beepOne = $("#beep")[0];
                         beepOne.volume = 0.15; // Setzt die Lautstärke auf 50%
