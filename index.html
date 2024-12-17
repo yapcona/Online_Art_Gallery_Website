@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- js libary for sound -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    
+    <title>art-gallery</title>
+</head>
+
+    <body>
+            <input type="checkbox" id="active">
+            <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+                <div class="wrapper">
+                    <ul class="nav">
+                        <li><a href="#">Home</a></li>
+                            <audio id="beep" preload="auto">
+                                <source src="light-bulb.mp3"></source>
+                            </audio>
+
+                        <li><a href="#">Events</a></li>
+                            <audio id="beep" preload="auto">
+                                <source src="light-bulb.mp3"></source>
+                            </audio>
+                        <li><a href="#">Archiv</a></li>
+                            <audio id="beep" preload="auto">
+                                <source src="light-bulb.mp3"></source>
+                            </audio>
+                        <li><a href="#">About</a></li>
+                            <audio id="beep" preload="auto">
+                                <source src="light-bulb.mp3"></source>
+                            </audio>
+                        <li><a href="#">Kontakt</a></li>
+                            <audio id="beep" preload="auto">
+                                <source src="light-bulb.mp3"></source>
+                            </audio>
+                        <li><a href="#">Story</a></li>
+                            <audio id="beep" preload="auto">
+                                <source src="light-bulb.mp3"></source>
+                            </audio>
+                        <li><a href="#">Anfahrt</a></li>
+                            <audio id="beep" preload="auto">
+                                <source src="light-bulb.mp3"></source>
+                            </audio>
+                    </ul>
+                </div>
+                    <div class="content">
+                        <div class="title">
+                            métamorphose
+                        </div>
+                        <p> prestige art gallery  </p>
+                </div>
+                    <script>
+                        var beepOne = $("#beep")[0];
+                        beepOne.volume = 0.15; // Setzt die Lautstärke auf 50%
+                        $(".nav").mouseenter(function() {
+                            beepOne.play();
+                        }).mouseleave(function() {
+                            beepOne.pause();
+                            beepOne.currentTime = 0;
+                        });
+                    </script>
+
+<!-- rest-->
+            <div class="navbar">
+                
+            </div>
+
+            <div class="text-1">
+                <p></p>
+            </div>
+    
+            <div class="img-1">
+    
+            </div>
+    
+            <div class="text2">
+    
+            </div>
+
+        </div>
+        
+    </body>
+</html>
