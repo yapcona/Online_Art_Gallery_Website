@@ -2,30 +2,44 @@
 
 a {
 	text-decoration: none;
-	color: #9fa0ff;
+	color: #fff;
 }
 
 .home-btn {
 	font-size: 40px;
 	width: 82px; 
-	background-color: black; /* Hintergrundfarbe */ 
-	color: #9fa0ff; /* Textfarbe */ 
+	color: #000000;  
 	margin-left: 10px;
 	margin-top: 10px;
-	padding: 10px 20px; /* Innenabstände */ 
-	border: none; /* Entfernt Rahmen */ 
-	border-radius: 30px; /* Abrundung der Ecken */
-	cursor: pointer; /* Zeigt Hand-Cursor bei Hover */ 
+	padding: 10px 20px; 
+	border: none;  
+	border-radius: 30px;
+	cursor: pointer; 
 	text-decoration: none;
-	transition: background-color 0.3s
+	transition: text-shadow 0.1s ease-in-out;
 
 }
 
 .home-btn:hover {
-	background-color: #ffffff;
-	color: #9fa0ff;
 	text-decoration: none;
+	text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
+
+li::marker {
+    content: none; 
+}
+
+body {
+    background: black;
+    background-size: cover;
+    /* background-color: #9fa0ff; */
+    font-family: "Share Tech Mono", monospace !important;
+    color: #ffffff;
+	text-shadow: 0 0 10px #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
 
 .content {
     display: flex;
@@ -45,17 +59,18 @@ h3 {
     line-height: 1px;
 }
 
-body {
-    background-color: #9fa0ff;
-    font-family: "Share Tech Mono", monospace !important;
-    color: rgb(0, 0, 0);
-
-}
-
 video {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 20px auto;
+    margin-top: -80px;
     border: 50px solid #000000;
+}
+
+
+@media screen and (max-width: 640px) {
+    video {
+        width: calc(70%);
+    }
 }

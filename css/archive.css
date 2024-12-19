@@ -16,32 +16,27 @@ html {
 
 a {
 	text-decoration: none;
-	color: #9fa0ff;
+	color: #fff;
 }
 
 .home-btn {
 	font-size: 40px;
-	width: 122.3px;
-    height: 65px; 
-    align-content: center;
-	background-color: black; /* Hintergrundfarbe */ 
-	color: #9fa0ff; /* Textfarbe */ 
+	width: 82px; 
+	color: #000000; 
 	margin-left: 10px;
-	margin-top: 10px;
-    margin-bottom: -400px;
-	padding: 10px 20px; /* Innenabstände */ 
-	border: none; /* Entfernt Rahmen */ 
-	border-radius: 30px; /* Abrundung der Ecken */
-	cursor: pointer; /* Zeigt Hand-Cursor bei Hover */ 
+	margin-bottom: -500px;
+	padding: 10px 20px;  
+	border: none;  
+	border-radius: 30px; 
+	cursor: pointer;  
 	text-decoration: none;
-	transition: background-color 0.3s
+	transition: text-shadow 0.1s ease-in-out;
 
 }
 
 .home-btn:hover {
-	background-color: #ffffff;
-	color: #9fa0ff;
 	text-decoration: none;
+	text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
 
@@ -50,10 +45,18 @@ body {
     min-height: 100vh;
     font-size: 1rem;
     line-height: 1.25;
-    background-color: #9fa0ff;
+    background: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTRtNDNjZTZ0aWU5NWFqbzVpeDZvNzF6ODNubzlpMmI0cXIxNXR5dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ad1M7tVT6EP4vF6t8t/giphy.webp) no-repeat center center fixed;
+    background-size: cover;
+    /* background-color: #9fa0ff; */
     font-family: "Share Tech Mono", monospace !important;
     color: rgb(0, 0, 0);
+	text-shadow: 0 0 10px #fff;
 }
+
+li::marker {
+    content: none; 
+}
+
 
 .grid {
     width: 100%;

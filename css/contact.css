@@ -1,40 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
 a {
 	text-decoration: none;
-	color: #9fa0ff;
+	color: #fff;
 }
 
 .home-btn {
 	font-size: 40px;
 	width: 82px; 
-	background-color: black; /* Hintergrundfarbe */ 
-	color: #9fa0ff; /* Textfarbe */ 
+	
+	color: #000000; 
 	margin-left: 10px;
 	margin-top: 10px;
-	padding: 10px 20px; /* Innenabstände */ 
-	border: none; /* Entfernt Rahmen */ 
-	border-radius: 30px; /* Abrundung der Ecken */
-	cursor: pointer; /* Zeigt Hand-Cursor bei Hover */ 
+	padding: 10px 20px; 
+	border: none; 
+	border-radius: 30px; 
+	cursor: pointer; 
 	text-decoration: none;
-	transition: background-color 0.3s
+	transition: text-shadow 0.3s ease-in-out;
 
 }
 
 .home-btn:hover {
-	background-color: #ffffff;
-	color: #9fa0ff;
 	text-decoration: none;
+	text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
 .menu {
 	width: fit-content;
 }
 
-body {
-    background-color: #9fa0ff;
-    font-family: "Share Tech Mono", monospace !important;
-    color: rgb(0, 0, 0);
+li::marker {
+    content: none; /* disable default bullet */
+}
 
+
+body {
+    background: url(https://i.pinimg.com/originals/73/bc/70/73bc702218d99efacce82a19754e26ee.gif) no-repeat center center fixed;
+    background-size: cover;
+    /* background-color: #9fa0ff; */
+    font-family: "Share Tech Mono", monospace !important;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+                 0 0 20px rgba(255, 255, 255, 0.6),
+                 0 0 30px rgba(255, 255, 255, 0.4),
+                 -1px -1px 0 #000, 
+                 1px 1px 0 #000; 
+	color: #fff;
 }
 
 /* CARDS */
@@ -65,12 +76,13 @@ body {
 
 
 p {
-    font-size: 16px;
+    margin-top: -20px;
+	font-size: 26px;
 	margin-top: 10px;
 }
 
 h1 {
-	font-size: 18px;
+	font-size: 26px;
 }
 
 .content {

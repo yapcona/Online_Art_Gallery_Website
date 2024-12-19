@@ -8,10 +8,14 @@
 }
 
 body {
-    background-color: #9fa0ff;
+    background: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTRtNDNjZTZ0aWU5NWFqbzVpeDZvNzF6ODNubzlpMmI0cXIxNXR5dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ad1M7tVT6EP4vF6t8t/giphy.webp) no-repeat center center fixed;
+    background-size: cover;
+    /* background-color: #9fa0ff; */
     font-family: "Share Tech Mono", monospace !important;
     color: rgb(0, 0, 0);
 }
+
+
 
 .wrapper {
     position: fixed;
@@ -64,7 +68,7 @@ body {
     font-size: 30px;
     font-weight: 500;
     padding: 5px 30px;
-    color: #9fa0ff; /* Korrektur hier */
+    color: #9fa0ff; 
     border-radius: 50px;
     background: #000;
     position: relative;
@@ -79,7 +83,7 @@ body {
     width: 104%;
     height: 110%;
     left: -2%;
-    top: -5%; /* if the font is 'Oswald' */
+    top: -5%;
     border-radius: 50px;
     transform: scaleY(0);
     z-index: -1;
@@ -114,6 +118,20 @@ input[type="checkbox"] {
     font-weight: 600;
 }
 
+.content .title,
+.content p {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), /* glow effect */
+                 0 0 20px rgba(255, 255, 255, 0.6), 
+                 0 0 30px rgba(255, 255, 255, 0.4), 
+                 -1px -1px 0 #000, 
+                 1px -1px 0 #000, 
+                 -1px 1px 0 #000, 
+                 1px 1px 0 #000; 
+    color: #000000; 
+}
+
+
+
 @keyframes rotate {
         0% {
             background: linear-gradient(#fff, #000, #fff);
@@ -140,5 +158,19 @@ input[type="checkbox"] {
     .menu-btn {
         margin: 0;
         
+    }
+
+    .content {
+        overflow: hidden;
+        font-size: 10px;
+        width: 90%;
+    }
+
+    .content p {
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 45px;
     }
 }

@@ -1,20 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
-body {
-    background-color: #9fa0ff;
-    font-family: "Share Tech Mono", monospace !important;
-    color: rgb(0, 0, 0);
+a {
+	text-decoration: none;
+	color: #fff;
 }
 
+.home-btn {
+	font-size: 40px;
+	width: 82px; 
+	color: #000000;  
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 10px 20px; 
+	border: none;  
+	border-radius: 30px;
+	cursor: pointer; 
+	text-decoration: none;
+	transition: text-shadow 0.1s ease-in-out;
+
+}
+
+.home-btn:hover {
+	text-decoration: none;
+	text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+li::marker {
+    content: none; 
+}
+
+body {
+    background: url(https://i.pinimg.com/originals/2d/3d/cd/2d3dcd6c4a1d79a075c95a55a388e802.gif) no-repeat center center fixed;
+    background-size: cover;
+    /* background-color: #9fa0ff; */
+    font-family: "Share Tech Mono", monospace !important;
+    color: #ffffff;
+	text-shadow: 0 0 10px #ffffff;
+}
 h1 {
     font-size: 40px;
     font-weight: 700;
 }
-
-.filler-img {
-	margin-bottom: -50px;
+p {
+	font-size: 20px;
+	display: block;
+	text-align: center;
+	margin: 10px auto;
+	width: 50%;
+	font-weight: bold;
 }
 
+.curs {
+	font-style: italic;
+	font-size: 26px;
+}
 
 .main-content {
     position: absolute;
@@ -24,35 +63,11 @@ h1 {
     z-index: -1;
     text-align: center;
     width: 100%;
-    color: #202020;
+    color: #ffffff;
 }
 
-a {
-	text-decoration: none;
-	color: #9fa0ff;
-}
 
-.home-btn {
-	font-size: 40px;
-	width: 82px; 
-	background-color: black; /* Hintergrundfarbe */ 
-	color: #9fa0ff; /* Textfarbe */ 
-	margin-left: 10px;
-	margin-top: 10px;
-	padding: 10px 20px; /* Innenabstände */ 
-	border: none; /* Entfernt Rahmen */ 
-	border-radius: 30px; /* Abrundung der Ecken */
-	cursor: pointer; /* Zeigt Hand-Cursor bei Hover */ 
-	text-decoration: none;
-	transition: background-color 0.3s
 
-}
-
-.home-btn:hover {
-	background-color: #ffffff;
-	color: #9fa0ff;
-	text-decoration: none;
-}
 
 @media screen and (max-width: 640px) {
     .main-content{

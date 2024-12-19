@@ -11,38 +11,43 @@
 
 a {
 	text-decoration: none;
-	color: #9fa0ff;
+	color: #fff;
 }
 
 .home-btn {
 	font-size: 40px;
 	width: 82px; 
-	background-color: black; /* Hintergrundfarbe */ 
-	color: #9fa0ff; /* Textfarbe */ 
+	color: #1e8ccf;  
 	margin-left: 10px;
 	margin-top: 10px;
-	padding: 10px 20px; /* Innenabstände */ 
-	border: none; /* Entfernt Rahmen */ 
-	border-radius: 30px; /* Abrundung der Ecken */
-	cursor: pointer; /* Zeigt Hand-Cursor bei Hover */ 
+	padding: 10px 20px; 
+	border: none;
+	border-radius: 30px;
+	cursor: pointer; 
 	text-decoration: none;
-	transition: background-color 0.3s
+	transition: text-shadow 0.1s ease-in-out;
 
 }
 
 .home-btn:hover {
-	background-color: #ffffff;
-	color: #9fa0ff;
 	text-decoration: none;
+	text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+li::marker {
+    content: none;
 }
 
 
 body {
-    background-color: #9fa0ff;
+    background: url(https://i.pinimg.com/originals/66/22/5c/66225c114f2de510bc3699e0c881ee5a.gif) no-repeat center center fixed;
+    background-size: cover;
+    /* background-color: #9fa0ff; */
     font-family: "Share Tech Mono", monospace !important;
-    color: rgb(0, 0, 0);
-
+    color: rgb(255, 255, 255);
+	text-shadow: 0 0 10px #9fa0ff;
 }
+
 
 p {
 	font-family: "Share Tech Mono", monospace !important;
@@ -86,6 +91,7 @@ p {
 	background-color: rgba(0, 0, 0, 0);
 	font-size: 1vw;
 	font-family: "Share Tech Mono", monospace;
+	text-shadow: 0 0 10px #000000;
 }
 .real:hover > .day-label {
 	color: rgba(255, 255, 255, 1);
@@ -95,7 +101,7 @@ p {
 	background-color: black;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: #ffffff; /* Calender Numbers */
+	color: #ffffff; 
     
 }
 .real:hover {
