@@ -137,5 +137,8 @@ input[type="checkbox"] {
 
 
 @media screen and (max-width: 640px) {
-    
+    .menu-btn {
+        margin: 0;
+        
+    }
 }

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
+html, body {
+    overflow-x: hidden;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -182,5 +186,7 @@ display: block;
 
 
 @media screen and (max-width: 640px) {
-    
+    .home-btn{
+        margin-bottom: -60px;
+    }
 }

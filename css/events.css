@@ -66,6 +66,8 @@ p {
 	width: 84vw;
 	margin: auto;
 	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
 }
 .day-frame {
 	margin: var(--dim2);
@@ -226,5 +228,11 @@ p {
 
 
 @media screen and (max-width: 640px) {
-    
+    .day-frame {
+		width: calc(50% - var(--dim2));
+	}
+
+	.day-frame-placeholder {
+		width: calc(50% - var(--dim2));
+	}
 }
