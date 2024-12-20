@@ -31,7 +31,7 @@ a {
 
 .home-btn:hover {
 	text-decoration: none;
-	text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+	text-shadow: 0 0 50px rgba(255, 255, 255, 0.8);
 }
 
 li::marker {
