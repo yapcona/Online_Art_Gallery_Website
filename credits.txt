@@ -1,7 +1,11 @@
 die vorlagen welche ich anpasste und nach meinen wünschen veränderte stammen ursprünglich von diesen programmern:
+(The templates that I adapted and modified according to my wishes originally came from these programmers)
 
 calendar:
 Pepita K.
 
 archive:
 Alina N.
+
+contact:
+snip1344
