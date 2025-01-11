@@ -20,13 +20,6 @@ Feel free to contribute to this project by submitting issues, pull requests, or 
 
 This project is licensed under the [MIT License](LICENSE.txt).
 
-### Let's Connect
+### Connect with Me
 
 I believe in the power of collaboration and continuous learning. Feel free to connect with me.
-
-
-Thank you for stopping by. I hope you enjoy the art and the seamless experience it offers xD
-
----
-
-Make sure to personalize it with your details and specific project highlights.
