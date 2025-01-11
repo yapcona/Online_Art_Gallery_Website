@@ -12,6 +12,13 @@ I have built this project using the following technologies:
 - **HTML & CSS**: For the structural and aesthetic design, complete with animation effects to add dynamic elements.
 - **JavaScript**: Implementing interactive features and enhancing user experience.
 
+## Contributions
+
+Feel free to contribute to this project by submitting issues, pull requests, or suggestions. Collaboration is always welcome!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.txt).
 
 ### Let's Connect
 
